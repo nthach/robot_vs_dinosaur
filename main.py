@@ -1,15 +1,8 @@
 
-
-from robot import Robot
-
+from battlefield import Battlefield
 
 
+battlefield_one = Battlefield()
+battlefield_one.run_game()
 
-robot = Robot('robotic')
-print(robot.name)
 
-robot.active_weapon
-print(robot.active_weapon)
-
-robot.health(100)
-print(robot.health)
